@@ -11,21 +11,33 @@ const studies = () => {
                 <ul className={styles.studiesItems}>
                     <li className={styles.studiesItem}>
                         <h6 className={styles.title3}>High School</h6>
-                        <img src={getImageUrl("images.jpeg")} alt="logo" className={styles.image}/>
-                        <p className={styles.info}>Salesianos Sagrado Corazón de Jesús</p>
-                        <p className={styles.info}>2015-2021</p>
+                        <li className={styles.studiescomp}>
+                            <img src={getImageUrl("images.jpeg")} alt="logo" className={styles.image}/>
+                            <div className={styles.paragraph}>
+                                <p className={styles.info}>Salesianos Sagrado Corazón de Jesús</p>
+                                <p className={styles.info}>2015-2021</p>
+                            </div>
+                        </li>
+                        
                     </li>
                     <li className={styles.studiesItem}>
                         <h6 className={styles.title3}>Computer Engineering</h6>
                         <li className={styles.studiescomp}>
                             <img src={getImageUrl("ULPGC.svg.png")} alt="logo" className={styles.image}/>
-                            <p className={styles.info}>Universidad de las Palmas de Gran Canaria</p>
-                            <p className={styles.info}>2021-Present</p>
+                            <div className={styles.paragraph}>
+                                <p className={styles.info}>Universidad de las Palmas de Gran Canaria</p>
+                                <p className={styles.info}>2021-Present</p>
+                            </div>
+                            
                         </li>
                         <li className={styles.studiescomp}>
                             <img src={getImageUrl("Logo_SYGNET.png")} alt="logo" className={styles.image}/>
-                            <p className={styles.info}>Politechnika Krakowska (Krákow, Poland)</p>
-                            <p className={styles.info}>2023-2024</p>
+                            <div className={styles.paragraph}>
+                                <p className={styles.info}>Politechnika Krakowska</p>
+                                <p className={styles.info}>ERASMUS. Krákow, Poland</p>
+                                <p className={styles.info}>2023-2024</p>
+                            </div>
+                            
                         </li>
                     </li>
                 

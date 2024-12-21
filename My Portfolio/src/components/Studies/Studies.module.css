@@ -84,3 +84,7 @@
     align-items: center;
     gap: 15px;
 }
+
+.paragraph{
+    flex-direction: column;
+}
