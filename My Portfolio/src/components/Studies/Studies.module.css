@@ -1,0 +1,86 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    background-color: rgba(12, 12, 12, 0.6);
+    border-radius: 15px;
+    padding: 73px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.75px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.studiesItems {
+    color: var(--color-text);
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay espacio */
+    gap: 15px; /* Reducir el espacio entre los elementos */
+    list-style: none; /* Quitar viñetas */
+    padding: 0;
+    margin: 0;
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+}
+
+
+.studiesItem {
+    display: flex;
+    flex-direction: column; /* Mantiene el contenido interno apilado */
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 25px;
+    gap: 15px; /* Espaciado interno entre los elementos */
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+    flex: 1; /* Permite que los elementos se distribuyan proporcionalmente */
+    min-width: 300px; /* Tamaño mínimo para evitar que colapsen */
+    max-width: 45%; /* Limita el ancho máximo */
+    margin-right: 0;
+}
+
+.studiesItem:hover {
+    background-size: 100% 100%;
+}
+
+.title2 {
+    font-size: 25px;
+}
+
+.title3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 50px;
+    margin-right: 0px;
+}
+
+.info {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.studiescomp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
