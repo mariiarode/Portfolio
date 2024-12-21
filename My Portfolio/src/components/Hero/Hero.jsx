@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className={styles.container}>
         <div className={styles.content}>
-            <h1 className={styles.title}>Hi, I'm María</h1>
+            <h1 className={styles.title}>Hi, I'm María Rodríguez</h1>
             <p className={styles.description}>I am a computer engineering student.  Motivated and passionate about continuous learning and self improvement, with a strong drive to acquire new skills and
  contribute to team success. 
  Hardworking, ambitious, creative, and enthusiastic.</p>
