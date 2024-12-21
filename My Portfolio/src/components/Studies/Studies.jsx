@@ -5,8 +5,9 @@ import { getImageUrl } from '../../utils'
 const Studies = () => {
   return (
     <section className={styles.container} id="studies">
-        <h4 className={styles.title}>STUDIES</h4>
-            
+            <div>
+                <h4 className={styles.title}>STUDIES</h4>
+            </div>
             <div className={styles.content}>
                 <ul className={styles.studiesItems}>
                     <li className={styles.studiesItem}>
@@ -45,11 +46,9 @@ const Studies = () => {
             </div>
 
             <div>
-                <div className={styles.course}>
-                    <h6 className={styles.title3}>Courses</h6>
-                </div>
                 <ul className={styles.studiesItems}>
                         <li className={styles.studiesItem}>
+                            <h6 className={styles.title3}>Courses</h6>
                             <li className={styles.studiescomp}>
                                 <img src={getImageUrl("deeplearning.png")} alt="logo" className={styles.image}/>
                                 <div className={styles.paragraph}>
@@ -64,8 +63,6 @@ const Studies = () => {
                                     <p className={styles.info}>Google</p>
                                 </div>
                             </li>
-                        </li>
-                        <li className={styles.studiesItem}>
                             <li className={styles.studiescomp}>
                                 <img src={getImageUrl("redhat.png")} alt="logo" className={styles.image}/>
                                 <div className={styles.paragraph}>
@@ -81,8 +78,6 @@ const Studies = () => {
                                 </div>
                             </li>
                         </li>
-                            
-                    
                 </ul>
             </div>
 

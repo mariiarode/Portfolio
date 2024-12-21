@@ -2,13 +2,14 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
-    border-radius: 15px;
-    padding: 55px;
-    margin-top: 129px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
 .title {
@@ -25,14 +26,14 @@
 .content {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 
 .studiesItems {
     color: var(--color-text);
     display: flex;
     flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay espacio */
-    gap: 5px; /* Reducir el espacio entre los elementos */
+    gap: 10px; /* Reducir el espacio entre los elementos */
     list-style: none; /* Quitar viñetas */
     padding: 0;
     margin: 0;
@@ -46,7 +47,7 @@
     align-items: flex-start;
     border-radius: 20px;
     padding: 25px;
-    gap: 5px; /* Espaciado interno entre los elementos */
+    gap: 10px; /* Espaciado interno entre los elementos */
     background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
     background-size: 0 100%;
     background-repeat: no-repeat;

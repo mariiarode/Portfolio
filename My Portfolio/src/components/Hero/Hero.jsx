@@ -11,7 +11,7 @@ const Hero = () => {
  contribute to team success. 
  Hardworking, ambitious, creative, and enthusiastic.</p>
 
-            <a href="mailto:rodriguezdenizmaria@gmail.com" className={styles.contact}>Contact Me!</a>
+            <a href="mailto:rodriguezdenizmaria@gmail.com" className={styles.contact}>Contact Me</a>
         </div>
         <img src={getImageUrl("IMG_8473_jpg.JPG")} alt="Image of me" className={styles.image}/>
         <div className={styles.topBlur}></div>
