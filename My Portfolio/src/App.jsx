@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Studies from './components/Studies/Studies';
+import Certificates from './components/Certificates/Certificates';
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
       <Hero/>
       <About/>
       <Studies/>
+      <Certificates/>
     </div>
   )
 }

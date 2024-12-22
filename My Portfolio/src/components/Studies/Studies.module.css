@@ -3,13 +3,13 @@
 .container {
     position: relative;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 49px;
+    justify-content: flex-start;
+    margin-top: 20px; 
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-
 }
 
 .title {
@@ -18,9 +18,11 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
-    margin-bottom: 20px;
-
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
 }
+
 
 
 .content {
@@ -30,36 +32,35 @@
 }
 
 .studiesItems {
-    color: var(--color-text);
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no hay espacio */
-    gap: 10px; /* Reducir el espacio entre los elementos */
-    list-style: none; /* Quitar viñetas */
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-around; 
+    list-style: none; 
     padding: 0;
     margin: 0;
-    justify-content: space-between; /* Distribuye uniformemente los elementos */
 }
-
 
 .studiesItem {
     display: flex;
     flex-direction: column; 
-    align-items: flex-start;
+    align-items: center;
+    text-align: center; 
     border-radius: 20px;
     padding: 25px;
-    gap: 10px; /* Espaciado interno entre los elementos */
-    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
-    flex: 1; /* Permite que los elementos se distribuyan proporcionalmente */
-    min-width: 300px; /* Tamaño mínimo para evitar que colapsen */
-    max-width: 45%; /* Limita el ancho máximo */
+    gap: 15px; 
+    background-color: rgba(95, 165, 188, 0.42); 
+    transition: background-color 0.4s, transform 0.2s; 
+    flex: 1;
+    min-width: 300px; 
+    max-width: 300px; 
     margin-right: 0;
+    color: var(--color-text);
 }
 
 .studiesItem:hover {
-    background-size: 100% 100%;
+    background-color: rgba(130, 185, 221, 0.8); 
+    transform: scale(1.02); 
 }
 
 .title2 {
@@ -73,24 +74,28 @@
 
 .image {
     width: 50px;
-    margin-right: 0px;
+    height: auto;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start; 
 }
 
 .info {
-    font-size: 20px;
+    font-size: 16px; 
     line-height: 1.5;
 }
 
 .studiescomp {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: center; 
+    text-align: left; 
     gap: 15px;
 }
 
-.paragraph{
-    flex-direction: column;
-}
 
 .course {
     display: flex; 
