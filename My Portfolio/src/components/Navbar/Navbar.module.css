@@ -27,6 +27,10 @@
     list-style: none;
 }
 
+.menuItem:hover {
+    background-color: rgba(130, 185, 221, 0.8);
+}
+
 .menuItems a {
     font-size: 25px;
     color: var(--color-text);

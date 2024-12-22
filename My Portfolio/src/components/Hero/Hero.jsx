@@ -13,7 +13,7 @@ const Hero = () => {
 
             <a href="mailto:rodriguezdenizmaria@gmail.com" className={styles.contact}>Contact Me</a>
         </div>
-        <img src={getImageUrl("IMG_8473_jpg.JPG")} alt="Image of me" className={styles.image}/>
+        <img src={getImageUrl("FOTO CV.jpg")} alt="Image of me" className={styles.image}/>
         <div className={styles.topBlur}></div>
         <div className={styles.bottomBlur}></div>
     </section>

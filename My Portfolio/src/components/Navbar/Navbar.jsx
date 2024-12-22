@@ -8,13 +8,13 @@ const Navbar = () => {
       <a className={styles.title} href="/">Portfolio</a>
       <div className={styles.menu}>
         <ul className={styles.menuItems}>
-            <li><a href="#about">About</a></li>
-            <li><a href="#studies">Studies</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#cv">CV</a></li>
+            <li className={styles.menuItem}><a href="#about">About</a></li>
+            <li className={styles.menuItem}><a href="#studies">Studies</a></li>
+            <li className={styles.menuItem}><a href="#certificates">Certificates</a></li>
+            <li className={styles.menuItem}><a href="#experience">Experience</a></li>
+            <li className={styles.menuItem}><a href="#projects">Projects</a></li>
+            <li className={styles.menuItem}><a href="#contact">Contact</a></li>
+            <li className={styles.menuItem}><a href="#cv">CV</a></li>
         </ul>
       </div>
     </nav>
