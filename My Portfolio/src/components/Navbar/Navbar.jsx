@@ -14,7 +14,7 @@ const Navbar = () => {
             <li className={styles.menuItem}><a href="#experience">Experience</a></li>
             <li className={styles.menuItem}><a href="#projects">Projects</a></li>
             <li className={styles.menuItem}><a href="#contact">Contact</a></li>
-            <li className={styles.menuItem}><a href="#cv">CV</a></li>
+            <li className={styles.menuItem}><a href="public/CV ENGLISH MARÍA RODRÍGUEZ DÉNIZ.pdf">CV</a></li>
         </ul>
       </div>
     </nav>

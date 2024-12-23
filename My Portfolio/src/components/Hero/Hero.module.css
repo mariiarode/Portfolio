@@ -9,8 +9,9 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 40px;
-
+    padding: 0;
+    max-width: 100%; /* Asegura que no exceda el ancho del viewport */
+    
 }
 
 .content {
@@ -19,8 +20,9 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    max-width: 70%; /* Limita el ancho del texto */
+    flex: 1;
 }
-
 
 .title {
     font-size: 60px;
@@ -39,7 +41,6 @@
     margin-right: 40px;
 }
 
-
 .contact {
     text-decoration: none;
     background-color: var(--color-primary);
@@ -53,7 +54,9 @@
 }
 
 .image {
-    width: 30%;
+    flex: 0 0 30%; /* Define el ancho proporcional */
+    width: 100%; /* Asegura que la imagen se ajuste correctamente */
+    max-width: 300px; /* Tamaño máximo de la imagen */
     z-index: 1;
     border-radius: 50%;
     animation-name: floating;
@@ -63,15 +66,14 @@
     margin-bottom: 50px;
 }
 
-
 @keyframes floating {
     0% {
         transform: translate(0, 10px);
     }
-    50%{
+    50% {
         transform: translate(0, 30px);
     }
-    100%{
+    100% {
         transform: translate(0, 10px);
     }
 }
@@ -81,9 +83,9 @@
     width: 50vw;
     height: 50vw;
     min-width: 350px;
-    min-width: 350px;
+    max-width: 90%; /* Reduce el tamaño para evitar desbordamiento */
     top: -128px;
-    left: 10vw;
+    left: 5vw; /* Ajuste para mantenerlo en pantalla */
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.5);
     filter: blur(100px);
@@ -94,10 +96,10 @@
     position: absolute;
     width: 70vw;
     height: 50vw;
-    min-width: 350px;
-    min-width: 250px;
+    min-width: 250px; /* Ajustado para evitar inconsistencias */
+    max-width: 90%; /* Reduce el tamaño para evitar desbordamiento */
     top: 246px;
-    right: -25vw;
+    right: -5vw; /* Asegura que no se salga del viewport */
     border-radius: 764px;
     background: rgba(25, 55, 109, 0.5);
     filter: blur(100px);
