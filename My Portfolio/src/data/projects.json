@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Calculator",
+      "img": "calculator.png", 
+      "description": "This is a website of a calculator developed in HTML-CSS",
+      "link": "https://github.com/mariiarode/Calculator"
+    },
+    {
+      "id": 2,
+      "title": "To-do list",
+      "img": "todo.png", 
+      "description": "This is a website of a To-do list developed in React-JavaScript-CSS",
+      "link": "https://github.com/mariiarode/To-do-list"
+    },
+    {
+      "id": 3,
+      "title": "Movie database website",
+      "img": "movie.png", 
+      "description": "This website is developed in HMTL-JavaScript-CSS-JSON-SERVER",
+      "link": "https://github.com/mariiarode/Movie-database-website"
+    }
+  ]
+  

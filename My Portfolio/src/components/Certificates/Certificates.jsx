@@ -6,6 +6,7 @@ const Certificates = () => {
   const certificates = [
     { src: getImageUrl("redhat2.jpg"), alt: "Certificate 1" },
     { src: getImageUrl("redhat1.jpg"), alt: "Certificate 2" },
+    { src: getImageUrl("redhat3.jpg"), alt: "Certificate 5" },
     { src: getImageUrl("googleCert.jpg"), alt: "Certificate 3" },
     { src: getImageUrl("deep.jpg"), alt: "Certificate 4" }
   ];
@@ -26,7 +27,7 @@ const Certificates = () => {
 
   return (
     <div className={styles.container} id="certificates">
-      <h2 className={styles.title}>Certificates</h2>
+      <h2 className={styles.title}>Certifications</h2>
       <div className={styles.carousel}>
         <button onClick={handlePrev} className={styles.arrow}>
           &#8249;

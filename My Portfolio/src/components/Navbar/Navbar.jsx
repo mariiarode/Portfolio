@@ -10,11 +10,11 @@ const Navbar = () => {
         <ul className={styles.menuItems}>
             <li className={styles.menuItem}><a href="#about">About</a></li>
             <li className={styles.menuItem}><a href="#studies">Studies</a></li>
-            <li className={styles.menuItem}><a href="#certificates">Certificates</a></li>
+            <li className={styles.menuItem}><a href="#certificates">Certifications</a></li>
             <li className={styles.menuItem}><a href="#experience">Experience</a></li>
             <li className={styles.menuItem}><a href="#projects">Projects</a></li>
             <li className={styles.menuItem}><a href="#contact">Contact</a></li>
-            <li className={styles.menuItem}><a href="public/CV ENGLISH MARÍA RODRÍGUEZ DÉNIZ.pdf">CV</a></li>
+            <li className={styles.menuItem}><a href="/CV ENGLISH MARÍA RODRÍGUEZ DÉNIZ.pdf">CV</a></li>
         </ul>
       </div>
     </nav>

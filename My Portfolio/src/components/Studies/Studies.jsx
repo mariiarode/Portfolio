@@ -10,7 +10,6 @@ const Studies = () => {
     </div>
     <div className={styles.content}>
         <ul className={styles.studiesItems}>
-            {/* Primer item */}
             <li className={styles.studiesItem}>
                 <h6 className={styles.title3}>High School</h6>
                 <div className={styles.studiescomp}>
@@ -21,7 +20,6 @@ const Studies = () => {
                     </div>
                 </div>
             </li>
-            {/* Segundo item */}
             <li className={styles.studiesItem}>
                 <h6 className={styles.title3}>Computer Engineering</h6>
                 <div className={styles.studiescomp}>
@@ -40,9 +38,8 @@ const Studies = () => {
                     </div>
                 </div>
             </li>
-            {/* Cursos */}
             <li className={styles.studiesItem}>
-                <h6 className={styles.title3}>Courses</h6>
+                <h6 className={styles.title3}>Complementary Studies</h6>
                 <div className={styles.studiescomp}>
                     <img src={getImageUrl("deeplearning.png")} alt="logo" className={styles.image}/>
                     <div className={styles.paragraph}>

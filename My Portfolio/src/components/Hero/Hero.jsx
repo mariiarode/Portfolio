@@ -10,6 +10,7 @@ const Hero = () => {
             <p className={styles.description}>I am a computer engineering student.  Motivated and passionate about continuous learning and self improvement, with a strong drive to acquire new skills and
  contribute to team success. 
  Hardworking, ambitious, creative, and enthusiastic.</p>
+            <p></p>
 
             <a href="mailto:rodriguezdenizmaria@gmail.com" className={styles.contact}>Contact Me</a>
         </div>
