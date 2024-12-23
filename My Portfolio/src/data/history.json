@@ -1,0 +1,19 @@
+[
+    {
+      "role": "Artificial Inteligence Analyst and Prompt Engineering",
+      "organisation": "Secret Source",
+      "startDate": "Sept, 2024",
+      "endDate": "Dec, 2024",
+      "experiences": ["Internship", " Bidwin.ai", " Create, test, and optimize prompts"],
+      "imageSrc": "secret_source.jpeg"
+    },
+    {
+      "role": "Private Tutor",
+      "organisation": "Freelancer",
+      "startDate": "Sept, 2019",
+      "endDate": "June, 2023",
+      "experiences": ["Improved Student Performance", "Digital tools and interactive resources"],
+      "imageSrc": "tutor.avif"
+    }
+    
+  ]
